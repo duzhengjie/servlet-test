@@ -7,7 +7,7 @@ import javax.servlet.annotation.HandlesTypes;
 import javax.servlet.http.HttpServlet;
 import java.util.Set;
 
-@HandlesTypes(HttpServlet.class)
+@HandlesTypes({HttpServlet.class})
 public class MyServletContainerInitializer implements ServletContainerInitializer {
 
     static {
